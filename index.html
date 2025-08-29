@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EdgeLearn AI — Modern AI Course</title>
+  <meta name="description" content="EdgeLearn AI is a modern, hands-on course that teaches practical AI and ML skills from zero to pro." />
+  <meta property="og:title" content="EdgeLearn AI — Modern AI Course" />
+  <meta property="og:description" content="A hands-on AI course with three tiers: Starter, Pro, and Masterclass." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#111827" />
+  <link rel="icon" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="EdgeLearn AI logo" width="32" height="32">
+        <span>EdgeLearn AI</span>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <button id="menuBtn" class="menu-btn" aria-expanded="false" aria-controls="navLinks">
+          <span class="sr-only">Open menu</span>
+          ☰
+        </button>
+        <ul id="navLinks" class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#curriculum">Curriculum</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn-sm" href="#enroll">Enroll</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Become <span class="gradient">AI‑fluent</span> in weeks</h1>
+          <p class="lead">Project‑based lessons that take you from zero to shipping AI apps.
+             Choose a tier that fits your goals and timeline.</p>
+          <div class="cta">
+            <a class="btn btn-lg" href="#pricing">View Pricing</a>
+            <a class="btn btn-outline btn-lg" href="#curriculum">See Curriculum</a>
+          </div>
+          <ul class="hero-points">
+            <li>🏗️ Build real projects</li>
+            <li>🧠 Understand the fundamentals</li>
+            <li>🛠️ Tools: Python, notebooks, vector DBs, LLMs</li>
+          </ul>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit">
+            <div class="planet"></div>
+            <div class="ring r1"></div>
+            <div class="ring r2"></div>
+            <div class="ring r3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>What you’ll learn</h2>
+          <p>EdgeLearn AI is a modern course that blends theory with practice. You’ll pick up
+          the core concepts of machine learning and today’s AI tooling, then apply them to
+          portfolio‑ready projects like chatbots, image generators, and data agents.</p>
+          <ul class="checklist">
+            <li>Core ML & deep learning concepts without the fluff</li>
+            <li>Working with LLMs, embeddings, RAG, and agents</li>
+            <li>Prompting, evaluation, and responsible AI</li>
+            <li>Deployment to the cloud & GitHub Pages</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>At a glance</h3>
+          <dl class="kv">
+            <div><dt>Format</dt><dd>Video + notebooks + projects</dd></div>
+            <div><dt>Difficulty</dt><dd>Beginner → Advanced</dd></div>
+            <div><dt>Schedule</dt><dd>Self‑paced</dd></div>
+            <div><dt>Access</dt><dd>Lifetime updates</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="curriculum" class="section alt">
+      <div class="container">
+        <h2>Curriculum</h2>
+        <div class="grid-3">
+          <div class="module card">
+            <h3>1. Foundations</h3>
+            <p>Python refresh, tensors, training loops, data loading, metrics.</p>
+            <ul class="bullets">
+              <li>Colab & Jupyter</li>
+              <li>NumPy & PyTorch basics</li>
+              <li>Overfitting & regularization</li>
+            </ul>
+          </div>
+          <div class="module card">
+            <h3>2. Modern LLMs</h3>
+            <p>Tokenization, prompting, embeddings, RAG, function calling.</p>
+            <ul class="bullets">
+              <li>Chat apps with memory</li>
+              <li>Evaluation & guardrails</li>
+              <li>Vector DBs & retrieval</li>
+            </ul>
+          </div>
+          <div class="module card">
+            <h3>3. Shipping</h3>
+            <p>APIs, serverless deploys, monitoring, costs, and UX.</p>
+            <ul class="bullets">
+              <li>Streamlit/Gradio frontends</li>
+              <li>CI/CD with GitHub</li>
+              <li>Analytics & A/B testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2>Pricing</h2>
+        <p class="muted center">Pick a tier that suits your time and support needs.</p>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <header>
+              <h3>Starter</h3>
+              <p class="tag">For self‑starters</p>
+              <div class="price"><span class="currency">$</span>69</div>
+              <p class="sub">One‑time, lifetime access</p>
+            </header>
+            <ul class="features">
+              <li>All video lessons</li>
+              <li>Downloadable notebooks</li>
+              <li>Community forum access</li>
+              <li>Certificate of completion</li>
+            </ul>
+            <a class="btn btn-block" href="#enroll">Get Starter</a>
+          </article>
+
+          <article class="price-card highlight">
+            <header>
+              <h3>Pro</h3>
+              <p class="tag">Most popular</p>
+              <div class="price"><span class="currency">$</span>149</div>
+              <p class="sub">One‑time, lifetime access</p>
+            </header>
+            <ul class="features">
+              <li>Everything in Starter</li>
+              <li>Monthly live Q&A</li>
+              <li>Project feedback</li>
+              <li>Bonus: RAG mini‑course</li>
+            </ul>
+            <a class="btn btn-accent btn-block" href="#enroll">Go Pro</a>
+          </article>
+
+          <article class="price-card">
+            <header>
+              <h3>Masterclass</h3>
+              <p class="tag">For teams & power users</p>
+              <div class="price"><span class="currency">$</span>499</div>
+              <p class="sub">One‑time or invoice</p>
+            </header>
+            <ul class="features">
+              <li>Everything in Pro</li>
+              <li>1:1 coaching session</li>
+              <li>Private Slack channel</li>
+              <li>Team license (up to 5)</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="#enroll">Enroll Masterclass</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section alt">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details>
+          <summary>Do I need prior AI/ML experience?</summary>
+          <p>No. We start from the fundamentals and ramp up to advanced topics with guided projects.</p>
+        </details>
+        <details>
+          <summary>How long does it take?</summary>
+          <p>Most learners finish the core content in 4–6 weeks part‑time, but it’s fully self‑paced.</p>
+        </details>
+        <details>
+          <summary>Is there a refund policy?</summary>
+          <p>Yes—14‑day no‑questions‑asked refund if you haven’t completed more than 30% of the course.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="enroll" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Enroll today</h2>
+          <p>Ready to level up? Fill out the form and we’ll send next steps. Prefer email?
+          <a href="mailto:hello@example.com">hello@example.com</a></p>
+          <ul class="checklist">
+            <li>Secure payments</li>
+            <li>Student discounts available</li>
+            <li>Team invoicing on request</li>
+          </ul>
+        </div>
+        <form class="card form" name="enroll" method="post" action="https://formspree.io/f/{your-id}" onsubmit="return validateForm(event)">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Ada Lovelace" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="ada@example.com" required>
+          </div>
+          <div class="field">
+            <label for="tier">Tier</label>
+            <select id="tier" name="tier" required>
+              <option value="">Choose a tier</option>
+              <option>Starter</option>
+              <option>Pro</option>
+              <option>Masterclass</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="notes">Notes (optional)</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Anything we should know?"></textarea>
+          </div>
+          <button class="btn btn-accent btn-block" type="submit">Submit</button>
+          <p class="form-note">This demo uses Formspree. Replace the action URL with your own.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="EdgeLearn AI logo" width="24" height="24">
+        <span>EdgeLearn AI</span>
+      </a>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </nav>
+      <p class="small muted">© <span id="year"></span> EdgeLearn AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
